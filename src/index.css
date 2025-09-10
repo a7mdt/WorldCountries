@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[hsl(0,0%,99%)] text-[hsl(200,15%,8%)] transition-colors duration-300;
+}
+
+input,
+select {
+  @apply outline-none;
+}
